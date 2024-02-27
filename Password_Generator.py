@@ -5,5 +5,5 @@ Char_val = string.ascii_letters + string.digits + string.punctuation      #we ca
 password =""
 for i in range(password_length):
     password += random.choice(Char_val)
-print("Your randomly generated password:\n",password)
+print("Your randomly generated password is:\n",password)
 
